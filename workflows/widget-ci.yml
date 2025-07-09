@@ -1,4 +1,3 @@
-# FILE: docusign/1fe-widget-starter-kit/.github/workflows/widget-ci.yml
 name: Widget CI
 
 on:
