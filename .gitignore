@@ -85,3 +85,5 @@ src/types/widgets
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+test-results

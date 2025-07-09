@@ -1,5 +1,5 @@
-import React from 'react';
-import { WidgetProps } from './contract';
+import React from "react";
+import { WidgetProps } from "./contract";
 
 export default function Root(props: WidgetProps) {
   return (
