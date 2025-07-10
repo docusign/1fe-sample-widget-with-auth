@@ -1,6 +1,6 @@
 {
   "name": "auth-widget",
-  "version": "1.0.1-PR-2.a7a06ed.0",
+  "version": "1.0.2-PR-3.e18708f.0",
   "type": "module",
   "scripts": {
     "dev": "1fe-cli --trace --environment integration dev",
