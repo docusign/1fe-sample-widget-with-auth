@@ -1,4 +1,4 @@
-import { PlatformPropsType } from '@1fe/shell';
+import { PlatformPropsType } from "@1fe/shell";
 
 export interface HostPropsContract {}
 
