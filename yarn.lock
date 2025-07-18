@@ -5,6 +5,46 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@1fe/authed-widget@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@1fe/authed-widget@workspace:."
+  dependencies:
+    "@1fe/cli": "git+ssh://git@github.com/docusign/1fe.git#head=main&workspace=@1fe/cli"
+    "@1fe/eslint-config": "git+ssh://git@github.com/docusign/1fe.git#head=main&workspace=@1fe/eslint-config"
+    "@1fe/shell": "github:docusign/1fe#head=main&workspace=@1fe/shell"
+    "@playwright/test": "npm:^1.53.1"
+    "@repo/widget-base-config": "git+ssh://git@github.com/docusign/1fe-sample-widget-base-config.git#head=main"
+    "@testing-library/dom": "npm:^10.4.0"
+    "@testing-library/jest-dom": "npm:^6.6.3"
+    "@testing-library/react": "npm:^16.3.0"
+    "@types/jest": "npm:^29"
+    "@types/react": "npm:^18.2.62"
+    "@types/react-dom": "npm:^18.2.19"
+    "@types/systemjs": "npm:^6.15.1"
+    "@typescript-eslint/eslint-plugin": "npm:^8.35.0"
+    "@typescript-eslint/parser": "npm:^8.35.0"
+    antd: "npm:^5.22.4"
+    cross-env: "npm:^7.0.3"
+    eslint: "npm:8.57.1"
+    eslint-config-prettier: "npm:^10.1.1"
+    eslint-config-ts-react-important-stuff: "npm:^3.0.0"
+    eslint-plugin-prettier: "npm:^5.2.4"
+    eslint-plugin-react: "npm:^7.37.5"
+    identity-obj-proxy: "npm:^3.0.0"
+    jest: "npm:^29"
+    jest-environment-jsdom: "npm:^29"
+    prettier: "npm:^3.5.3"
+    pretty-quick: "npm:^3.1.1"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
+    single-spa: "npm:^5.9.3"
+    single-spa-react: "npm:^6.0.2"
+    ts-config-single-spa: "npm:^3.0.0"
+    ts-jest: "npm:^29"
+    typescript: "npm:5.8.2"
+  languageName: unknown
+  linkType: soft
+
 "@1fe/cli@git+ssh://git@github.com/docusign/1fe.git#head=main&workspace=@1fe/cli":
   version: 0.0.1
   resolution: "@1fe/cli@git+ssh://git@github.com/docusign/1fe.git#workspace=%401fe%2Fcli&commit=6877e975006992664614a33381e7fca6725a6241"
@@ -6172,46 +6212,6 @@ __metadata:
   checksum: 10c0/d73e2ddf20c4eb9337e1b3df1a0f6159481050a5de457c55b14ea2e5cb6d90bb69e004c9af54737a5ee0917fcf2c9e25de67777bbe58261847846066ba75bc9d
   languageName: node
   linkType: hard
-
-"auth-widget@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "auth-widget@workspace:."
-  dependencies:
-    "@1fe/cli": "git+ssh://git@github.com/docusign/1fe.git#head=main&workspace=@1fe/cli"
-    "@1fe/eslint-config": "git+ssh://git@github.com/docusign/1fe.git#head=main&workspace=@1fe/eslint-config"
-    "@1fe/shell": "github:docusign/1fe#head=main&workspace=@1fe/shell"
-    "@playwright/test": "npm:^1.53.1"
-    "@repo/widget-base-config": "git+ssh://git@github.com/docusign/1fe-sample-widget-base-config.git#head=main"
-    "@testing-library/dom": "npm:^10.4.0"
-    "@testing-library/jest-dom": "npm:^6.6.3"
-    "@testing-library/react": "npm:^16.3.0"
-    "@types/jest": "npm:^29"
-    "@types/react": "npm:^18.2.62"
-    "@types/react-dom": "npm:^18.2.19"
-    "@types/systemjs": "npm:^6.15.1"
-    "@typescript-eslint/eslint-plugin": "npm:^8.35.0"
-    "@typescript-eslint/parser": "npm:^8.35.0"
-    antd: "npm:^5.22.4"
-    cross-env: "npm:^7.0.3"
-    eslint: "npm:8.57.1"
-    eslint-config-prettier: "npm:^10.1.1"
-    eslint-config-ts-react-important-stuff: "npm:^3.0.0"
-    eslint-plugin-prettier: "npm:^5.2.4"
-    eslint-plugin-react: "npm:^7.37.5"
-    identity-obj-proxy: "npm:^3.0.0"
-    jest: "npm:^29"
-    jest-environment-jsdom: "npm:^29"
-    prettier: "npm:^3.5.3"
-    pretty-quick: "npm:^3.1.1"
-    react: "npm:^18.3.1"
-    react-dom: "npm:^18.3.1"
-    single-spa: "npm:^5.9.3"
-    single-spa-react: "npm:^6.0.2"
-    ts-config-single-spa: "npm:^3.0.0"
-    ts-jest: "npm:^29"
-    typescript: "npm:5.8.2"
-  languageName: unknown
-  linkType: soft
 
 "autoprefixer@npm:^9.0.0, autoprefixer@npm:^9.8.8":
   version: 9.8.8
