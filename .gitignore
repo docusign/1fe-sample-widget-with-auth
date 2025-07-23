@@ -87,3 +87,4 @@ src/types/widgets
 !.yarn/versions
 
 test-results
+.cache
