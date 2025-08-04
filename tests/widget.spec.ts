@@ -8,7 +8,7 @@ const widgetId = process.env.WIDGET_ID || packageJson.name;
 test("should display the expected string on the bathtub page", async ({
   page,
 }) => {
-  const url = `https://demo.1fe.com/bathtub?widgetUrl=https://1fe-a.akamaihd.net/integration/widgets/${widgetId}/${version}/js/1fe-bundle.js&fixPreview=true`;
+  const url = `https://demo.1fe.com/playground?widgetUrl=https://1fe-a.akamaihd.net/integration/widgets/${widgetId}/${version}/js/1fe-bundle.js&fixPreview=true`;
   await page.goto(url);
 
   await expect(
